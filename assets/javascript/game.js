@@ -41,7 +41,7 @@ var yourGuess=[];
 			"<p> Losses: " + losses + "</p>" +
 			"<p> Guesses Left : " + GuessLeft + "</p>" +
 			"<p>Your Guesses So Far: " + yourGuess + "</p>";
-			document.querySelector('#game').innerHTML= html;
+			document.querySelector('#container').innerHTML= html;
 		}
 
 	
